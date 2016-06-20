@@ -1,1 +1,1 @@
-#### h6 First Project of the Molga Junior Team
+First Project of the Molga Junior Team
