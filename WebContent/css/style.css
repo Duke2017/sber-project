@@ -8,8 +8,9 @@
 	font-size: 15px;
 	border-bottom: 1px solid black;
 }
-
-
+.sapMBarContainer.sapMBarPH{
+	background: black;
+}
 
 
 .to-do-action-deadline[data-css-color="warning"]{
