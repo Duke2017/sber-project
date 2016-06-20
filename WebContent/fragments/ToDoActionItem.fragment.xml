@@ -1,0 +1,39 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core">
+   
+   <VBox visible="{= ${type} === 'warning' || ${type} === 'target'}" 
+   		 class="sapUiTinyMargin">
+   	<HBox justifyContent="SpaceBetween">
+   	
+   		<Text text="{title}" class="bold"/>
+   		<Text text="{deadline}" class="to-do-action-deadline bold" wrapping="false">
+   			<customData>
+   				<core:CustomData
+   				 key="css-color" value="{dayTodealine}" writeToDom="true"/>
+   			</customData>
+   		</Text>
+	</HBox>
+  		
+   		<Text text="{message}" class="sapUiTinyMargin"
+   		visible ="{= ${message} === '' ? false : true }"/>
+   		
+   		<VBox visible="{= ${author} === '' ? false:true}">
+   			<Text text="{author}" class="bold"></Text>
+   			<Text text="{profession}" class="small-and-gray-text"></Text>
+   		</VBox>
+   		
+   	<HBox justifyContent="Inherit">
+   		<Button text="{button}" 
+   				type="Emphasized"
+   				/>
+   				
+   		<Button text="{deffer}" 
+   				visible="{= ${deffer} === '' ? false : true}"
+   				icon="{icon}" 
+   				iconFirst="false" 
+   				type="Transparent"
+   				class="bold"/>	
+   	</HBox>
+   </VBox>
+</core:FragmentDefinition>

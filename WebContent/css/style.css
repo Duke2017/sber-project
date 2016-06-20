@@ -1,0 +1,49 @@
+.sapUiTheme-sap_bluecrystal {
+    font-size: 14px;
+}
+
+.sapMList .sapMLIB.sapMGHLI{
+	background: black;
+	color: white;
+	font-size: 15px;
+	border-bottom: 1px solid black;
+}
+
+
+
+
+.to-do-action-deadline[data-css-color="warning"]{
+	color: red;
+	font-weight: bold;
+	align-content: center;
+}
+
+.bg-comment{
+	background: #f8f0b5;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.page-background{
+	background: black;
+	
+}
+
+.small-and-gray-text{
+	font-size: 10px;
+	color: gray;
+}
+
+.bg-menu{
+	background-color: green;
+}
+
+.bg-btn-menu{
+	color: white;
+}
+
+.vbox-hover-bg:hover{
+	background: black;
+}

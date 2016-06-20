@@ -1,0 +1,99 @@
+{
+	
+	
+ "array" :	[
+	 
+
+	 
+	{
+		"type" : "warning",
+		"title" : "Подчиненные не заполнили данные о сроках",
+		"deadline" : "до 28.01",
+		"message" : "Через 3 дня заканчивается срок поставки задач у",
+		"link" : "7 подчиненных",
+		"button" : "Напомнить всем о сроках",
+		"deffer" : "",
+		"icon" : "",
+		"dayTodealine" : "warning",
+		"targets" : 20,
+		"author" : "",
+		"profession" : ""
+	},
+	 
+
+	 
+	{
+		"type" : "warning",
+		"title" : "Заполните свою форму целей",
+		"deadline" : "до 28.01",
+		"message" : "Стартовала компания по постановке целей на 2016 год",
+		"button" : "Заполнить цели",
+		"deffer" : "Отложить",
+		"icon" : "sap-icon://slim-arrow-down",
+		"link" : "",
+		"dayTodealine" : "",
+		"targets" : 0,
+		"author" : "",
+		"profession" : ""
+	},
+	 
+
+	 
+	 
+	{
+		"type" : "post",
+		"title" : "Вам каскадировал цель Кравченко Г.В.",
+		"message" : "Создание открытой платформы комплексного анализа и прогнозирования управленческих показателей.",
+		"icon" : "sap-icon://decline",
+		"dayTodealine" : "",
+		"targets" : 0,
+		"author" : "",
+		"profession" : ""
+	},
+		 
+	 
+	{
+		"type" : "target",
+		"title" : "Поставьте цели на 2016 год",
+		"deadline" : "до 28.01",
+		"author" : "Кравченко Геннадию Валентиновичу",
+		"profession" : "Старший управляющий директор",
+		"button" : "Перейти в форму целей",
+		"deffer" : "Отложить",
+		"dayTodealine" : "",
+		"deadline" : "до 28.01",
+		"message" : "",
+		"icon" : "sap-icon://slim-arrow-down",
+		"getTarget" : "Поставьте цели 20 подчиненным",
+		"getTarget" : "Поставьте цели 20 подчиненным"
+	},
+	 
+	 
+	 
+	 
+	 
+	 
+	{
+		"type" : "target",
+		"title" : "Согласуйте цели на 2016 год",
+		"deadline" : "до 28.01",
+		"author" : "Кравченко Геннадию Валентиновичу",
+		"profession" : "Старший управляющий директор",
+		"button" : "Перейти в форму целей",
+		"deffer" : "Отложить",
+		"dayTodealine" : "",
+		"deadline" : "до 28.01",
+		"message" : "",
+		"icon" : "sap-icon://slim-arrow-down",
+		"getTarget" : "Поставьте цели 15 подчиненным"
+	}
+	 
+	 
+	 
+	 
+	 
+],
+	"day" : 18,
+	"month" : "января"
+	
+}

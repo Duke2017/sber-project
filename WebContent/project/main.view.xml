@@ -1,0 +1,71 @@
+<core:View  xmlns:core="sap.ui.core" 
+            xmlns:mvc="sap.ui.core.mvc" 
+            xmlns="sap.m"
+		    controllerName="project.main">
+<App>
+	<Page showHeader="false">
+		<content>
+			<HBox>
+				<VBox height="100%" class="bg-menu" width="80px">
+				
+				 <HBox class=" vbox-hover-bg">
+					 <core:Icon src="sap-icon://arrow-down" width="40px"
+					  	class="bg-btn-menu sapUiSmallMargin sapUiLargeMarginBottom" size="40px"/>
+				 </HBox>
+				 
+				  <HBox class="vbox-hover-bg">
+				  	<core:Icon src="sap-icon://bar-chart" width="40px"
+				  		class="bg-btn-menu sapUiSmallMargin" 
+				  		size="45px"/>
+				  </HBox>
+				  
+				  <HBox class="vbox-hover-bg">
+				  	<core:Icon src="sap-icon://appointment-2" width="40px"
+				 		class="bg-btn-menu sapUiSmallMargin" size="45px"/>
+				  </HBox>
+				  
+				  <HBox class="vbox-hover-bg">
+				  	<core:Icon src="sap-icon://chart-axis" width="40px"
+				  		class="bg-btn-menu sapUiSmallMargin" size="45px"/>
+				  </HBox>
+				</VBox>		  
+			<SplitContainer mode="StretchCompressMode">
+				<layoutData>
+					<FlexItemData shrinkFactor="0" growFactor="1"/>
+				</layoutData>
+	<masterPages>
+  		<Page class="page-background" title="Список дел на сегодня,{/day} {/month}"
+  		showTitle="false">
+    <content>
+    <List items="{
+    	path: '/array', 
+    	sorter: { 
+    		path: 'getTarget', 
+    		group: true, 
+    		descending : true 
+    		},
+    		groupHeaderFactory : '.todoGroupFactory'
+     	}">
+      <CustomListItem class="sapUiTinyMargin">
+    	<content>
+		<core:Fragment fragmentName="fragments.ToDoActionItem" type="XML" />
+		<core:Fragment fragmentName="fragments.ToDoCommentItem" type="XML" />
+		</content>
+   	  </CustomListItem>
+    </List>           
+	</content>
+  		</Page>
+	</masterPages>
+
+<detailPages>
+    <Page>
+    <content>
+    </content>
+    </Page>
+</detailPages>
+	</SplitContainer>
+			</HBox>
+		</content>
+	</Page>
+</App>
+</core:View>
