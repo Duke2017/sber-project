@@ -6,29 +6,35 @@
 	<Page showHeader="false">
 		<content>
 			<HBox>
-				<VBox height="100%" class="bg-menu" width="80px">
-				
-				 <HBox class=" vbox-hover-bg">
-					 <core:Icon src="sap-icon://arrow-down" width="40px"
-					  	class="bg-btn-menu sapUiSmallMargin sapUiLargeMarginBottom" size="40px"/>
+				<VBox height="100%" class="bg-menu" width="60px"
+				justifyContent="SpaceBetween">
+				<VBox>
+				 <HBox class=" hbox-hover-bg">
+					 <core:Icon src="sap-icon://arrow-down" width="30px"
+					  	class="bg-btn-menu sapUiSmallMargin sapUiSmallMarginBottom" size="30px"/>
 				 </HBox>
 				 
-				  <HBox class="vbox-hover-bg">
-				  	<core:Icon src="sap-icon://bar-chart" width="40px"
+				  <HBox class="hbox-hover-bg">
+				  	<core:Icon src="sap-icon://bar-chart" width="30px"
 				  		class="bg-btn-menu sapUiSmallMargin" 
-				  		size="45px"/>
+				  		size="30px"/>
 				  </HBox>
 				  
-				  <HBox class="vbox-hover-bg">
-				  	<core:Icon src="sap-icon://appointment-2" width="40px"
-				 		class="bg-btn-menu sapUiSmallMargin" size="45px"/>
+				  <HBox class="hbox-hover-bg">
+				  	<core:Icon src="sap-icon://appointment-2" width="30px"
+				 		class="bg-btn-menu sapUiSmallMargin" size="30px"/>
 				  </HBox>
 				  
-				  <HBox class="vbox-hover-bg">
-				  	<core:Icon src="sap-icon://chart-axis" width="40px"
-				  		class="bg-btn-menu sapUiSmallMargin" size="45px"/>
+				  <HBox class="hbox-hover-bg">
+				  	<core:Icon src="sap-icon://chart-axis" width="30px"
+				  		class="bg-btn-menu sapUiSmallMargin" size="30px"/>
 				  </HBox>
-				</VBox>		  
+			</VBox>
+				  <HBox class="hbox-hover-bg">
+				  	<core:Icon src="sap-icon://sys-help" 
+				  	class="bg-btn-menu sapUiSmallMargin" width="30px" size="20px"/>
+				  </HBox>
+				  </VBox>
 			<SplitContainer mode="StretchCompressMode">
 				<layoutData>
 					<FlexItemData shrinkFactor="0" growFactor="1"/>

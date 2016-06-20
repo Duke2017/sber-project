@@ -10,8 +10,14 @@
 }
 .sapMBarContainer.sapMBarPH{
 	background: black;
+
 }
 
+.sapMIBar>.sapMBarLeft>.sapMBarChild:last-child, .sapMIBar .sapMBarPH>.sapMBarChild:last-child{
+	color: white;
+	font-size: 15px;
+	background: black;
+}
 
 .to-do-action-deadline[data-css-color="warning"]{
 	color: red;
@@ -45,6 +51,10 @@
 	color: white;
 }
 
-.vbox-hover-bg:hover{
+.hbox-hover-bg:hover{
+	background: black;
+}
+
+.sap-desktop .sapMIBar.sapMHeader-CTX{
 	background: black;
 }
