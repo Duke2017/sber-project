@@ -9,8 +9,7 @@
    		<Text text="{title}" class="bold"/>
    		<Text text="{deadline}" class="to-do-action-deadline bold" wrapping="false">
    			<customData>
-   				<core:CustomData
-   				 key="css-color" value="{dayTodealine}" writeToDom="true"/>
+   		<core:CustomData key="css-color" value="{dayTodealine}" writeToDom="true"/>
    			</customData>
    		</Text>
 	</HBox>
@@ -33,7 +32,8 @@
    				icon="{icon}" 
    				iconFirst="false" 
    				type="Transparent"
-   				class="bold"/>	
+   				class="bold"
+   				press=".popoverClick"/>	
    	</HBox>
    </VBox>
 </core:FragmentDefinition>

@@ -1,0 +1,11 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:core="sap.ui.core"
+		xmlns:u="sap.ui.unified"
+		>
+	<Popover placement="Bottom" showHeader="false">
+		<content>
+			<u:Calendar/>
+		</content>
+	</Popover>
+</core:FragmentDefinition>

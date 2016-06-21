@@ -6,10 +6,9 @@
 <App height="100%">
 	<Page showHeader="false">
 		<content>
-		
 			<HBox height="100%">
-			<core:Fragment fragmentName="fragments.SberLeftMenu" type="XML"/>
-				<SplitContainer mode="StretchCompressMode">
+				<core:Fragment fragmentName="fragments.SberLeftMenu" type="XML"/>
+			<SplitContainer mode="StretchCompressMode">
 				<layoutData>
 					<FlexItemData shrinkFactor="0" growFactor="1"/>
 				</layoutData>
