@@ -11,12 +11,13 @@ sap.ui.define(['sap/ui/core/mvc/Controller'],function(Controller){
 			return new sap.m.GroupHeaderListItem({
 				title: oGroup.key === '' ? '' : oGroup.key,
 				upperCase : false
-		})
+			})
+		},
 				
-		/*click-icon : function(){
+		clickIcon : function(){
 			alert('something');
-		}*/
+		} 	
 			
-		}
+		
     })
 })

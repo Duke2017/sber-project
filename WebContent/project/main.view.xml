@@ -6,73 +6,48 @@
 <App height="100%">
 	<Page showHeader="false">
 		<content>
+		
 			<HBox height="100%">
-				<VBox height="100%" class="bg-menu" width="60px"
-				justifyContent="SpaceBetween">
-				<VBox>
-				 <HBox class=" hbox-hover-bg">
-					 <core:Icon src="sap-icon://arrow-down" width="30px"
-					  	class="bg-btn-menu sapUiSmallMargin sapUiSmallMarginBottom" size="30px"/>
-				 </HBox>
-				 
-				  <HBox class="hbox-hover-bg">
-				  	<core:Icon src="sap-icon://bar-chart" width="30px"
-				  		class="bg-btn-menu sapUiSmallMargin" 
-				  		size="30px"/>
-				  </HBox>
-				  
-				  <HBox class="hbox-hover-bg">
-				  	<core:Icon src="sap-icon://appointment-2" width="30px"
-				 		class="bg-btn-menu sapUiSmallMargin" size="30px"/>
-				  </HBox>
-				  
-				  <HBox class="hbox-hover-bg">
-				  	<core:Icon src="sap-icon://chart-axis" width="30px"
-				  		class="bg-btn-menu sapUiSmallMargin" size="30px"/>
-				  </HBox>
-			</VBox>
-				  <HBox class="hbox-hover-bg">
-				  	<core:Icon src="sap-icon://sys-help" 
-				  	class="bg-btn-menu sapUiSmallMargin" width="30px" size="20px"/>
-				  </HBox>
-				  </VBox>
-			<SplitContainer mode="StretchCompressMode">
+			<core:Fragment fragmentName="fragments.SberLeftMenu" type="XML"/>
+				<SplitContainer mode="StretchCompressMode">
 				<layoutData>
 					<FlexItemData shrinkFactor="0" growFactor="1"/>
 				</layoutData>
-	<masterPages>
-  		<Page class="page-background" title="Список дел на сегодня,{/day} {/month}"
+<masterPages>
+  	<Page class="page-background" title="Список дел на сегодня,{/day} {/month}"
   		showTitle="false">
-    <content>
-    <List items="{
-    	path: '/array', 
-    	sorter: { 
-    		path: 'getTarget', 
-    		group: true, 
-    		descending : true 
-    		},
-    		groupHeaderFactory : '.todoGroupFactory'
-     	}">
-      <CustomListItem class="sapUiTinyMargin">
     	<content>
-		<core:Fragment fragmentName="fragments.ToDoActionItem" type="XML" />
-		<core:Fragment fragmentName="fragments.ToDoCommentItem" type="XML" />
+    		<List items="{
+    				path: '/array', 
+    				sorter: { 
+    					path: 'getTarget', 
+    					group: true, 
+    					descending : true 
+    				},
+    				groupHeaderFactory : '.todoGroupFactory'
+     			}">
+     <CustomListItem class="sapUiTinyMargin">
+    		<content>
+    	
+				<core:Fragment fragmentName="fragments.ToDoActionItem" type="XML" />
+				<core:Fragment fragmentName="fragments.ToDoCommentItem" type="XML" />
+		
+			</content>
+   	 </CustomListItem>
+    		</List>           
 		</content>
-   	  </CustomListItem>
-    </List>           
-	</content>
-  		</Page>
-	</masterPages>
+  	</Page>
+</masterPages>
 
 <detailPages>
     <Page>
-    <content>
-    </content>
+    	<content>
+    	</content>
     </Page>
 </detailPages>
-	</SplitContainer>
-			</HBox>
-		</content>
+			</SplitContainer>
+		</HBox>
+	</content>
 	</Page>
 </App>
 </core:View>

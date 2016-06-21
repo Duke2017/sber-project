@@ -6,7 +6,7 @@
      <HBox justifyContent="SpaceBetween">
        
         <Text text="{title}" class="blackcolor sapUiTinyMargin bold"/>
-		<core:Icon src="{icon}" class="sapUiTinyMargin" press=".click-icon"/>
+		<core:Icon src="{icon}" class="sapUiTinyMargin" press="clickIcon"/>
     
      </HBox>
        

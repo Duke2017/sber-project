@@ -1,0 +1,32 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core">
+	<VBox height="100%" class="bg-menu" width="60px" justifyContent="SpaceBetween">
+		<VBox>
+				 <HBox class=" hbox-hover-bg">
+					 <core:Icon src="sap-icon://arrow-down" width="30px"
+					  	class="bg-btn-menu sapUiSmallMargin sapUiLargeMarginBottom" size="30px"/>
+				 </HBox>
+				 
+				  <HBox class="hbox-hover-bg">
+				  	<core:Icon src="sap-icon://bar-chart" width="30px"
+				  		class="bg-btn-menu sapUiSmallMargin" 
+				  		size="30px"/>
+				  </HBox>
+				  
+				  <HBox class="hbox-hover-bg">
+				  	<core:Icon src="sap-icon://appointment-2" width="30px"
+				 		class="bg-btn-menu sapUiSmallMargin" size="30px"/>
+				  </HBox>
+				  
+				  <HBox class="hbox-hover-bg">
+				  	<core:Icon src="sap-icon://chart-axis" width="30px"
+				  		class="bg-btn-menu sapUiSmallMargin" size="30px"/>
+				  </HBox>
+		</VBox>
+				  <HBox class="hbox-hover-bg">
+				  	<core:Icon src="sap-icon://sys-help" 
+				  	class="bg-btn-menu sapUiSmallMargin" width="30px" size="20px"/>
+				  </HBox>
+	</VBox>
+</core:FragmentDefinition>
