@@ -2,11 +2,12 @@
    xmlns="sap.m"
    xmlns:core="sap.ui.core">
 
-	<VBox visible="{= ${type} === 'post'}">
+	<VBox visible="{= ${type} === 'post' &amp;&amp; ${visible} === true ?
+    	true : false }">
      <HBox justifyContent="SpaceBetween">
        
         <Text text="{title}" class="blackcolor sapUiTinyMargin bold"/>
-		<core:Icon src="{icon}" class="sapUiTinyMargin" press="clickIcon"/>
+		<core:Icon src="{icon}" class="sapUiTinyMargin" press="closeCommentItem"/>
     
      </HBox>
        

@@ -5,7 +5,7 @@
 		>
 	<Popover placement="Bottom" showHeader="false">
 		<content>
-			<u:Calendar/>
+			<u:Calendar select="dateSelect"/>
 		</content>
 	</Popover>
 </core:FragmentDefinition>

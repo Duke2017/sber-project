@@ -48,7 +48,8 @@
 		"dayTodealine" : "",
 		"targets" : 0,
 		"author" : "",
-		"profession" : ""
+		"profession" : "",
+		"visible" : true
 	},
 		 
 	 
@@ -65,7 +66,8 @@
 		"message" : "",
 		"icon" : "sap-icon://slim-arrow-down",
 		"getTarget" : "Поставьте цели 20 подчиненным",
-		"getTarget" : "Поставьте цели 20 подчиненным"
+		"getTarget" : "Поставьте цели 20 подчиненным",
+		"visible" : true
 	},
 	 
 	 
@@ -85,7 +87,8 @@
 		"deadline" : "до 28.01",
 		"message" : "",
 		"icon" : "sap-icon://slim-arrow-down",
-		"getTarget" : "Поставьте цели 15 подчиненным"
+		"getTarget" : "Поставьте цели 15 подчиненным",
+		"visible" : true
 	}
 	 
 	 
